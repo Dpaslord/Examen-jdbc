@@ -12,4 +12,5 @@ public interface DAO<T> {
     /* Métodos de lectura */
     List<T> findAll();
     Optional<T> findById(Integer id);
+    List<T> findByGenero(String genero);
 }

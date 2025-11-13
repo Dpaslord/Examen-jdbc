@@ -2,6 +2,7 @@ package org.example.database;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
 import javax.sql.DataSource;
+import java.sql.SQLException;
 
 /**
  * Proveedor de {@link DataSource} para conexiones MySQL.

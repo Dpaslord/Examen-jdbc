@@ -15,22 +15,20 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Producto implements Serializable {
-    /** Identificador único del producto. */
+public class Pelicula implements Serializable {
+    /** Identificador único de la pelicula. */
     private Integer id;
 
-    /** Nombre del videojuego. */
-    private String nombre;
+    /** Titulo del pelicula. */
+    private String titulo;
 
-    /** Desarrollador del videojuego. */
-    private String desarrollador;
+    /** Genero pelicula */
+    private String genero;
 
     /** Año de lanzamiento. */
     private Integer año;
 
-    /** Género del videojuego. */
-    private String genero;
+    /** Director de pelicula */
+    private String director;
 
-    /** Plataforma en la que se lanzó. */
-    private String plataforma;
 }
